@@ -88,7 +88,101 @@ It is the foundation of web development.
 
 
 
+------------------------------------------------>>>>>>>>>>>>>>>> JAVA SCRIPT <<<<<<<<<<<<<<<<<<<<<<<<<<----------------------------------------------
 
+ECMA :- Europian Computer Manufacture Assoiciation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Conditional Statement....
+
+if Statement.
+if else Statement.
+else if Statement.
+
+
+      let a = prompt("Hey whats you age")
+      a = Number.parseInt(a) // Conver The String to a Number.
+      if(a <0) {
+      alert("This is an invaied Age")
+      }
+      else {
+      alert("This is vailed Age");
+      }
+      // prompt user input... value is String
+      // alert = pop show krega.
+
+      
+      Ternary Operator..
+      condition ? exp1 : exp2
+      (marks > 30 ) ? 'pass' : 'fail'
+      
+
+FOR LOOPS.....
+for Lop :- Loop a block of code no of times.
+FOR(LET I = 0; I < 10 ; I++) {
+     CONSOLE.LOG(i)
+}
+
+FOR-IN-LOOP:- LOOPS THROUGH THE KEYS OF AN OBJECT
+let obj = {
+pintu: 90,
+akash: 45,
+mantu:57,
+shiv: 44
+}
+for(let a in obj){
+console.log("MArks of " + a + " are " + obj[a])
+}
+
+FOR- OF-LOOP:- LOOPS THROUGH THE VALUES OF AN OBJECTS.
+for(let b of "akash") {
+console.log(b)
+}
+
+WHILE LOOP:- LOOPS A BLOCK BASED ON A SPECIFIC CONDITION
+let n = prompt("Enter The Value of n")
+n = Number.parseInt(n)
+let i = 0;
+while(i < n) {
+console.log(i)
+i++;
+}
+
+DO WHILE LOOP:- WHILE LOOP VARIENT WHICH RUNS AtLEAST ONCE.
+do {
+console.log(i)
+i++;
+} while (i < n)
+
+
+
+Functions................
+A javascript Function is a block of code designed to perform a particular task.
+
+function myFunction () {
+// Code
+}
+
+function Binod func (parameter 1, parameter 2) {
+// code
+}
+Binod func(7,8)
+
+
+
+ 
 
 
 
