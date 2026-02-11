@@ -182,6 +182,62 @@ Binod func(7,8)
 
 
 
+const hello = () => {
+console.log("Hey how are you. ")
+}
+hello()
+
+
+arrow Function........
+const sum = (a, b) => {
+return a + b
+}
+console.log(sum(9, 7))
+
+
+..................STRING.................
+template Literls :- use backtics insted of quotes to define a String
+
+Let boy1 = "Pramod"
+let boy2 = "Nikhil"
+Let sentence = `boy1 is a friend of boy2`
+console.log(sentence)
+
+EScape Sequence Characters :-
+let fruit = 'Bana\'na'   
+console fruit // 
+\l = new Line
+\t = tab
+\r = carriage Return.
+
+
+.....Array.......
+
+changing the value = 
+let numbers = [7 , 2 , 49 ,9]
+number[2] = 8 //[7,2 , 8, 9]
+
+
+...... Map. Filter . Reduce.......
+
+mao() :- create a new Array by performing some operation on each array element.
+const a = [1, 2, 3]
+a.map((value, index, array) => {
+return value * value;
+})
+
+filter() ;-  filters ana array with values that passes a test creates a new array
+const a = [1, 2, 3, 4. 5]
+a.filter(greater_than_5)
+
+
+
+
+
+
+
+
+
  
 
 
