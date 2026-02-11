@@ -88,6 +88,186 @@ It is the foundation of web development.
 
 
 
+
+
+
+
+
+
+
+
+
+........................................>>>>>>>>>>>>>>>CSS<<<<<<<<<<<<<<<<<<<<.................................
+
+Types of CSS?
+Inline, Internal, External.
+
+Types of selectors?
+Element, Class, ID, Universal, Group.
+
+Specificity order?
+Inline > ID > Class > Element.
+
+What is CSS Box Model?
+Content, padding, border, margin.
+
+Margin vs padding?
+Margin = outside | Padding = inside.
+
+Display types?
+block, inline, inline-block, none, flex.
+
+Sticky position?
+Switches between relative & fixed.
+
+Position values?
+static, relative, absolute, fixed, sticky.
+
+Color formats?
+name, hex, rgb, rgba, hsl.
+
+Hex color?
+#ff0000
+
+RGBA use?
+Transparency.
+
+Absolute units?
+px, cm.
+
+Relative units?
+%, em, rem, vh, vw.
+
+em vs rem?
+em = parent | rem = root.
+
+vh & vw?
+Viewport height/width.
+
+Font-family fallback?
+Yes.
+
+Font-weight values?
+100–900.
+
+Font-style?
+normal, italic.
+
+Text-align values?
+left, right, center, justify.
+
+Line-height use?
+Space between lines.
+
+Text-transform?
+uppercase, lowercase.
+
+Text-decoration?
+underline, none.
+
+What is Flexbox?
+One-dimensional layout.
+
+Flex container?
+display: flex;
+
+Flex direction values?
+row, column.
+
+justify-content?
+Aligns horizontally.
+
+align-items?
+Aligns vertically.
+
+flex-wrap?
+Wrap items.
+
+align-content?
+Align multiple rows.
+
+flex-grow?
+Growth ratio.
+
+flex-shrink?
+Shrink ratio.
+
+flex-basis?
+Initial size.
+
+flex shorthand?
+flex: 1 0 auto;
+
+Gap property?
+Space between items.
+
+Main axis?
+Direction of flex.
+
+Cross axis?
+Perpendicular axis.
+
+Center div using flex?
+justify-content:center; align-items:center;
+
+fr unit?
+Fraction of space.
+
+Transition properties?
+property, duration, timing.
+
+Transform functions?
+rotate, scale, translate.
+
+Cursor property?
+Changes mouse pointer.
+
+Transition?
+Smooth change.
+
+Transition properties?
+property, duration, timing.
+
+Transform functions?
+rotate, scale, translate.
+
+Animation?
+Keyframe-based motion.
+
+@keyframes use?
+Define animation steps.
+
+Shadow types?
+box-shadow, text-shadow.
+
+Object-fit?
+Image resizing.
+
+Filter property?
+blur, brightness.
+
+CSS variables?
+Custom properties.
+
+Define CSS variable?
+--main-color: red;
+
+Use CSS variable?
+var(--main-color)
+
+Preprocessors?
+Sass, Less.
+
+The z-index property controls the stacking order of elements along the z-axis. Elements with a higher z-index will appear in front of those with a lower z-index. It only works on positioned elements, like those with position: relative, absolute, fixed, or sticky.
+
+padding is the space inside the element, between the content and the border, while margin is the space outside the element, creating separation between the element and other surrounding elements.
+
+inline elements only take up as much width as necessary and flow within the same line, so they don’t break the line. Examples include <span> and <a>. On the other hand, block elements take up the full width available by default and start on a new line, like <div> and <p>.
+
+
+
+
+
 ------------------------------------------------>>>>>>>>>>>>>>>> JAVA SCRIPT <<<<<<<<<<<<<<<<<<<<<<<<<<----------------------------------------------
 
 ECMA :- Europian Computer Manufacture Assoiciation.
